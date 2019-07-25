@@ -1,14 +1,14 @@
 # strapi-provider-email-gmail-oauth2
 
 ## Note
-This package is a fork of the [strapi-provider-email-nodemailer-gmail-oauth2](https://www.npmjs.com/package/strapi-email-nodemailer-gmail-oauth2). This is to meet the [new required name for Strapi Beta](https://strapi.io/documentation/3.0.0-alpha.x/guides/email.html#usage). (Note: This package uses a Client ID and Client Secret instead of a Private Key)
+This package is a fork of the [strapi-provider-email-nodemailer-gmail-oauth2](https://www.npmjs.com/package/strapi-email-nodemailer-gmail-oauth2). This is to meet the [new required name for Strapi Beta](https://strapi.io/documentation/3.0.0-alpha.x/guides/email.html#usage).
 
 ## Usage
 
-1) [Create a new project](https://console.developers.google.com)
-2) [Enable Gmail API](https://console.developers.google.com/apis/library/gmail.googleapis.com)
-3) [Create OAuth client ID](https://console.developers.google.com/apis/api/gmail.googleapis.com/credentials)
-4) Use your Client ID and Client Secret in [Strapi](https://strapi.io/documentation/3.0.0-alpha.x/guides/email.html#usage)
+1) [Create a service account](https://console.cloud.google.com/iam-admin/serviceaccounts/)
+2) Use your Client (Unique) id and a (new) Private key 
+3) Use an exiting gmail username (within your domain/project)
+4) Use your username as 'From' and 'Reply-To'
 
 - Optional: Use an alias as 'From' or 'Reply-To'
 
