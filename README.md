@@ -25,5 +25,5 @@ This package is a fork of the [strapi-provider-email-nodemailer-gmail-oauth2](ht
 ## Installation
 
 ```bash
-npm i @alexandre-lavoie/strapi-provider-email-nodemailer-gmail-oauth2
+npm i strapi-provider-email-nodemailer-gmail-oauth2
 ```
