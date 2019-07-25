@@ -11,7 +11,7 @@ This package is a fork of the [strapi-provider-email-nodemailer-gmail-oauth2](ht
 4) Take note of your Cliend ID and Client Secret.
 4) Navigate to [https://developers.google.com/oauthplayground](https://developers.google.com/oauthplayground). 
 5) In settings, activate "Use your own OAuth credentials". Copy your Client ID and Client Secret.
-6) Set scopes to [https://mail.google.com].
+6) Set scopes to [https://mail.google.com](https://mail.google.com).
 7) Exchange Authorization Code.
 8) Take note of Refresh and Access Token.
 9) Copy credentials in *your host*/admin/plugins/email/configurations/.
