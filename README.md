@@ -1,5 +1,8 @@
 # strapi-provider-email-nodemailer-gmail-oauth2
 
+## Note
+This package is a fork of the [strapi-provider-email-nodemailer-gmail-oauth2](https://www.npmjs.com/package/strapi-email-nodemailer-gmail-oauth2). This is an exact copy but with the [required name change for Strapi Beta](https://strapi.io/documentation/3.0.0-alpha.x/guides/email.html#usage).
+
 ## Usage
 
 1) [Create a service account](https://console.cloud.google.com/iam-admin/serviceaccounts/)
