@@ -13,7 +13,7 @@
   },
   "main": "./lib",
   "dependencies": {
-    "nodemailer": "6.4.2"
+    "nodemailer": "6.4.6"
   },
   "strapi": {
     "isProvider": true
