@@ -1,6 +1,6 @@
 {
   "name": "@tudorilisoi/strapi-provider-email-gmail-oauth2",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Nodemailer Gmail provider with 3LO OAuth2 for Strapi Email",
   "homepage": "http://strapi.io",
   "keywords": [
@@ -13,6 +13,7 @@
   },
   "main": "./lib",
   "dependencies": {
+    "googleapis": "^58.0.0",
     "nodemailer": "6.4.6"
   },
   "strapi": {
